@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "## How to use",
   "main": "index.js",
+  
   "dependencies": {
     "@material-ui/core": "latest",
     "@material-ui/icons": "4.9.1",
@@ -51,7 +52,8 @@
   "scripts": {
     "dev": "nodemon server/index.js",
     "build": "next build",
-    "start": "next start"
+       "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
   },
   "author": "",
   "license": "ISC"
