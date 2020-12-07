@@ -52,7 +52,8 @@
   "scripts": {
     "dev": "nodemon server/index.js",
     "build": "next build",
-    "start": "next start -p $PORT",
+    //"start": "next start -p $PORT",
+    "start": "serve -s build",
     "heroku-postbuild": "npm run build"
   },
   "author": "",
