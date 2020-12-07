@@ -46,6 +46,7 @@
     "sequelize": "^6.3.4",
     "sequelize-cli": "^6.2.0",
     "soap": "^0.33.0",
+    "string-to-color": "^2.2.2",
     "typescript": "^4.0.3"
   },
   "devDependencies": {},
