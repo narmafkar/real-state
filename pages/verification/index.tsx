@@ -9,6 +9,7 @@ import IconButton from "@material-ui/core/IconButton";
 import CloseIcon from "@material-ui/icons/Close";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "../../src/components/CustomButtons/Button.js";
+const stc = require("string-to-color");
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -84,7 +85,7 @@ export default function Verification(props) {
     <div>
       <Collapse in={open}>
         <Alert
-          severity={alert.mode}
+          severity={stc(alert.mode)}
           action={
             <IconButton
               style={{ position: "absolute", left: "5%" }}
