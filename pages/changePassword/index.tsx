@@ -22,7 +22,6 @@ import Slide from "@material-ui/core/Slide";
 import Login from "../Login/Login";
 import Link from "next/link";
 import { TransitionProps } from "@material-ui/core/transitions";
-const stc = require("string-to-color");
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -115,7 +114,7 @@ export default function changePassword() {
       <HideAppBar />
       <Collapse in={open}>
         <Alert
-          severity={stc(alert.mode)}
+
           action={
             <IconButton
               style={{ position: "absolute", left: "5%" }}
