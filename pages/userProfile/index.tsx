@@ -384,9 +384,7 @@ export default function UserProfile({ stars }) {
             تعداد نمایش در هر صفحه
           </div>
         }
-        labelDisplayedRows={() => {
-          ("");
-        }}
+}
       />
     </div>
   );
